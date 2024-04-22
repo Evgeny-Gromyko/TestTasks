@@ -1,0 +1,48 @@
+#app {
+    margin: 0;
+    line-height: 1.5;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+
+.user-agreement {
+    padding: 20px;
+    border: 1px solid #808080;
+    border-radius: 5px;
+}
+
+.agreement-actions {
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.image-container {
+    background-color: #f0f0f0;
+    border: 1px solid #808080;
+    border-radius: 8px;
+    margin: 8px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #c3bfbf;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #666;
+}
